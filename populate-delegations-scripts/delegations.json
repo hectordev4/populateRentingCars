@@ -1,0 +1,68 @@
+[
+  {
+    "delegationId": "DELEG#001",
+    "operation": "profile",
+    "name": "Central Garage",
+    "address": "123 Main St, Downtown",
+    "city": "New York",
+    "carQuantity": 150,
+    "managerName": "John Doe",
+    "contactInfo": {
+      "phone": "+1 212-555-0198",
+      "email": "central@carrental.com"
+    }
+  },
+  {
+    "delegationId": "DELEG#002",
+    "operation": "profile",
+    "name": "West End Storage",
+    "address": "456 West Ave, West End",
+    "city": "Los Angeles",
+    "carQuantity": 120,
+    "managerName": "Jane Smith",
+    "contactInfo": {
+      "phone": "+1 310-555-0145",
+      "email": "westend@carrental.com"
+    }
+  },
+  {
+    "delegationId": "DELEG#003",
+    "operation": "profile",
+    "name": "Uptown Hub",
+    "address": "789 Uptown Blvd, North City",
+    "city": "Chicago",
+    "carQuantity": 180,
+    "managerName": "Mark Johnson",
+    "contactInfo": {
+      "phone": "+1 773-555-0112",
+      "email": "uptown@carrental.com"
+    }
+  },
+  {
+    "delegationId": "DELEG#004",
+    "operation": "profile",
+    "name": "Bay Area Depot",
+    "address": "101 Bay St, Marina District",
+    "city": "San Francisco",
+    "carQuantity": 100,
+    "managerName": "Emily Davis",
+    "contactInfo": {
+      "phone": "+1 415-555-0180",
+      "email": "bayarea@carrental.com"
+    }
+  },
+  {
+    "delegationId": "DELEG#005",
+    "operation": "profile",
+    "name": "Downtown Station",
+    "address": "202 City Center Plaza",
+    "city": "Miami",
+    "carQuantity": 130,
+    "managerName": "Michael Brown",
+    "contactInfo": {
+      "phone": "+1 305-555-0176",
+      "email": "downtown@carrental.com"
+    }
+  }
+]
+
