@@ -11,7 +11,7 @@ for car in $(jq -c '.[]' cars.json); do
             "model": {"S": .model},
             "year": {"N": (.year|tostring)},
             "color": {"S": .color},
-            "rented": {"BOOL": .rented},
+            "rentedDates": {"S": .rentedDates},
             "price": {"N": (.price|tostring)}
         }')"
 done
