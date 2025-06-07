@@ -5,7 +5,7 @@ from datetime import datetime
 
 current_year = datetime.now().year
 
-makes = ["Toyota", "Honda", "Ford", "Chevrolet", "Nissan"]
+manufacturer = ["Toyota", "Honda", "Ford", "Chevrolet", "Nissan"]
 models = ["Camry", "Civic", "Mustang", "Impala", "Altima"]
 cars = []
 
