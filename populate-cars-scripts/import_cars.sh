@@ -7,14 +7,14 @@ for car in $(jq -c '.[]' cars.json); do
         --item "$(echo "$car" | jq '{
             "delegationId": {"S": .delegationId},
             "operation": {"S": .operation},
-            "make": {"S": .make},
+            "manufacturer": {"S": .manufacturer},
             "model": {"S": .model},
+            "numberPlate": {"S": .numberPlate},
             "year": {"N": (.year|tostring)},
             "color": {"S": .color},
-            "rentedDates": {"S": .rentedDates},
-            "price": {"N": (.price|tostring)}
+            "price": {"N": (.price|tostring)},
+            "rentedDates": {"S": .rentedDates}
         }')"
 done
 
 echo "50 items inserted to $TABLE_NAME"
-

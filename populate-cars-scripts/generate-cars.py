@@ -23,7 +23,7 @@ for i in range(50):
         "numberPlate": number_plate,
         "year": current_year,
         "color": random.choice(["Blue", "Red", "Black", "White", "Green"]),
-        "price": random.randint(50, 100),
+        "price": random.randint(50, 150),
         "rentedDates": f"{operation}#calendar"
     }
     cars.append(car)
