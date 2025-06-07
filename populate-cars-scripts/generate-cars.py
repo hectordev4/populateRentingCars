@@ -18,13 +18,13 @@ for i in range(50):
     car = {
         "delegationId": f"DELEG#001",
         "operation": operation,
-        "numberPlate": number_plate,
-        "make": random.choice(makes),
+        "manufacturer": random.choice(makes),
         "model": random.choice(models),
+        "numberPlate": number_plate,
         "year": current_year,
         "color": random.choice(["Blue", "Red", "Black", "White", "Green"]),
-        "price": random.randint(50, 100)
-        "rentedDates": f"{operation}#calendar",
+        "price": random.randint(50, 100),
+        "rentedDates": f"{operation}#calendar"
     }
     cars.append(car)
 
