@@ -18,7 +18,7 @@ for i in range(50):
     car = {
         "delegationId": f"DELEG#001",
         "operation": operation,
-        "manufacturer": random.choice(makes),
+        "manufacturer": random.choice(manufacturer),
         "model": random.choice(models),
         "numberPlate": number_plate,
         "year": current_year,
