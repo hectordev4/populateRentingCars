@@ -1,5 +1,6 @@
 import json
 import random
+import string  # Import string for alphabet generation
 from datetime import datetime
 
 current_year = datetime.now().year
@@ -9,16 +10,21 @@ models = ["Camry", "Civic", "Mustang", "Impala", "Altima"]
 cars = []
 
 for i in range(50):
-    operation = f"car#{current_year}#{i+1:03d}"
+    #Number plate generator format: 1234-ABC
+    number_plate = f"{random.randint(1000, 9999)}-{''.join(random.choices(string.ascii_uppercase, k=3))}"
+    
+    operation = f"car#{current_year}#{number_plate}"
+    
     car = {
         "delegationId": f"DELEG#001",
         "operation": operation,
+        "numberPlate": number_plate,
         "make": random.choice(makes),
         "model": random.choice(models),
         "year": current_year,
         "color": random.choice(["Blue", "Red", "Black", "White", "Green"]),
-        "rentedDates": f"{operation}#calendar",
         "price": random.randint(50, 100)
+        "rentedDates": f"{operation}#calendar",
     }
     cars.append(car)
 
