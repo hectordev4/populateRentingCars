@@ -16,7 +16,7 @@ def generate_calendar():
         start_date = datetime.now()
         dates = {}
         for _ in range(180):  # Generate 6 months of dates
-            date = start_date.strftime("%m/%d")
+            date = start_date.strftime("%y/%m/%d")
             dates[date] = True
             start_date += timedelta(days=1)
 

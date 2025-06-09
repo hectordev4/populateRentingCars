@@ -2,67 +2,66 @@
   {
     "delegationId": "DELEG#001",
     "operation": "profile",
-    "name": "Central Garage",
-    "address": "123 Main St, Downtown",
-    "city": "New York",
+    "name": "Talleres La Hispano",
+    "address": "123 Calle Gran Vía",
+    "city": "Madrid",
     "carQuantity": 150,
-    "managerName": "John Doe",
+    "managerName": "Alfonso Rodríguez de la Fuente",
     "contactInfo": {
-      "phone": "+1 212-555-0198",
-      "email": "central@carrental.com"
+      "phone": "+34 91 555 01 98",
+      "email": "tallereshispano@carrental.es"
     }
   },
   {
     "delegationId": "DELEG#002",
     "operation": "profile",
-    "name": "West End Storage",
-    "address": "456 West Ave, West End",
-    "city": "Los Angeles",
+    "name": "Garajes Costa Brava",
+    "address": "456 Avenida Diagonal",
+    "city": "Barcelona",
     "carQuantity": 120,
-    "managerName": "Jane Smith",
+    "managerName": "María del Carmen Fernández Iglesias",
     "contactInfo": {
-      "phone": "+1 310-555-0145",
-      "email": "westend@carrental.com"
+      "phone": "+34 93 555 01 45",
+      "email": "garajescostabrava@carrental.es"
     }
   },
   {
     "delegationId": "DELEG#003",
     "operation": "profile",
-    "name": "Uptown Hub",
-    "address": "789 Uptown Blvd, North City",
-    "city": "Chicago",
+    "name": "Automóviles La Giralda",
+    "address": "789 Calle Sierpes",
+    "city": "Sevilla",
     "carQuantity": 180,
-    "managerName": "Mark Johnson",
+    "managerName": "José María López Gutiérrez",
     "contactInfo": {
-      "phone": "+1 773-555-0112",
-      "email": "uptown@carrental.com"
+      "phone": "+34 95 555 01 12",
+      "email": "autogiralda@carrental.es"
     }
   },
   {
     "delegationId": "DELEG#004",
     "operation": "profile",
-    "name": "Bay Area Depot",
-    "address": "101 Bay St, Marina District",
-    "city": "San Francisco",
+    "name": "Coches Levante S.L.",
+    "address": "101 Paseo Marítimo",
+    "city": "Valencia",
     "carQuantity": 100,
-    "managerName": "Emily Davis",
+    "managerName": "Teresa González del Valle",
     "contactInfo": {
-      "phone": "+1 415-555-0180",
-      "email": "bayarea@carrental.com"
+      "phone": "+34 96 555 01 80",
+      "email": "cocheslevante@carrental.es"
     }
   },
   {
     "delegationId": "DELEG#005",
     "operation": "profile",
-    "name": "Downtown Station",
-    "address": "202 City Center Plaza",
-    "city": "Miami",
+    "name": "Autos del Norte",
+    "address": "202 Plaza del Ayuntamiento",
+    "city": "Bilbao",
     "carQuantity": 130,
-    "managerName": "Michael Brown",
+    "managerName": "Francisco Javier Martínez de la Vega",
     "contactInfo": {
-      "phone": "+1 305-555-0176",
-      "email": "downtown@carrental.com"
+      "phone": "+34 94 555 01 76",
+      "email": "autosdelnorte@carrental.es"
     }
   }
 ]
-
