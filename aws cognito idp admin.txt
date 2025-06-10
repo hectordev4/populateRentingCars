@@ -1,0 +1,5 @@
+aws cognito-idp admin-set-user-password \
+--user-pool-id eu-central-1_3c28zFpbs \
+--username username \
+--password 'Password7!' \
+--permanent
